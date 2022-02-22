@@ -1,0 +1,107 @@
+﻿
+@model PaelytOnionArchi.Data.Customer
+
+
+@{
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+@{ ViewBag.Title = "Customer Details"; }
+
+
+<div class="row">
+    <form enctype="multipart/form-data" asp-action="Check" method="post" asp-controller="Home" class="mt-3">
+        <div asp-validation-summary="All">
+
+            <div class="form-group row">
+                <label asp-for="Email" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <input asp-for="Email" type="email" class="form-control" placeholder="Email">
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="TransactionNumber" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <input asp-for="TransactionNumber" class="form-control" placeholder="TransactionNumber">
+                    <span asp-validation-for="TransactionNumber" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div asp-validation-summary="All" class="text-danger"></div>
+
+
+    </form>
+</div>
+<p>
+    <a class="btn btn-success" onclick="show()" style="margin-bottom:10px; color: white" asp-action="check" asp-controller="Home"><i class="fa fa-plus"></i> Add </a>
+</p>
+<div>
+    <table class="table" border="1">
+
+        <thead>
+            <tr>
+                <th>
+                    Id
+                </th>
+                <th>
+                    Email
+                </th>
+                <th>
+                    TransactionNumber
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @*@foreach (Customer item in Model.Customers)
+                {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TransactionNumber)
+                    </td>
+                    <td>
+                        <a asp-controller="Home" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                        <a class="btn btn-danger" onclick="func(@item.Id)">Delete</a>
+                    </td>
+                </tr>
+                }*@
+        </tbody>
+    </table>
+
+</div>
+
+<script>
+    function show() {
+        var x = document.getElementById("bod");
+        x.style.visibility = "visible";
+    }
+    function Create() {
+        var x = document.getElementById("bod");
+        x.style.display = "none";
+    }
+    function func(item) {
+        var q = confirm("Are you sure you want to delete?");
+        if (q == true) {
+
+            $.ajax({
+                type: "GET",
+                url: "/Drugs/Delete/" + item,
+                success: function (data) {
+                    console.log(data);
+                    alert("success");
+                    window.location.reload();
+                }
+            });
+        }
+    }
+</script>

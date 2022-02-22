@@ -1,0 +1,47 @@
+february 19, 1989 -33...
+
+cdn..how do they work..
+create a folder.. have an account with the server..
+helps reduce the size of the image.. and increase the speed of websites
+
+load balancing .. is also the same as session state configuration
+IIS -
+sprint in agile..
+daily standup..
+
+
+
+
+
+understand the data structure and steps to take to open the right files/components
+opening LaFarge.TruckingMgt.Api
+                           .core
+                           .data
+                       .infrastructure
+
+
+infrastructure 
+
+software testing.. in as much as testers are hired, we have had to test our api's using postman.
+
+in the Global exception filters  where does item1 and item2 come in..
+read on GlobalException filters..
+
+the databaseConfigurations serve as the middleware right..?
+also the servicesconfiguration is where the services are called/included in the middleware or pipeline..
+
+lafarge.truck.data..
+seeding is usuall done in the appcontext
+entities is like the models.. but why do the models have no data constraints and annotations..?
+also has a file named Projects which contains the larfarge.trucking.core component..
+how do i add it..?
+
+lafarge.truck.core
+in the interface file, the IdriverManager is the same as the IDriverRepository in the repositories file.
+
+models/ ApiResponseModel.cs  ..need to check it put again..
+
+
+
+.................Azure....
+types of cloud are Iaas, paas, saas

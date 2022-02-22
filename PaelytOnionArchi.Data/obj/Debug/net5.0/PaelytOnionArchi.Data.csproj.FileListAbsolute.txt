@@ -1,0 +1,15 @@
+C:\Users\Tee\source\repos\PaelytOnionArchi.Data\PaelytOnionArchi.Data\bin\Debug\net5.0\PaelytOnionArchi.Data.deps.json
+C:\Users\Tee\source\repos\PaelytOnionArchi.Data\PaelytOnionArchi.Data\bin\Debug\net5.0\PaelytOnionArchi.Data.runtimeconfig.json
+C:\Users\Tee\source\repos\PaelytOnionArchi.Data\PaelytOnionArchi.Data\bin\Debug\net5.0\PaelytOnionArchi.Data.runtimeconfig.dev.json
+C:\Users\Tee\source\repos\PaelytOnionArchi.Data\PaelytOnionArchi.Data\bin\Debug\net5.0\PaelytOnionArchi.Data.dll
+C:\Users\Tee\source\repos\PaelytOnionArchi.Data\PaelytOnionArchi.Data\bin\Debug\net5.0\ref\PaelytOnionArchi.Data.dll
+C:\Users\Tee\source\repos\PaelytOnionArchi.Data\PaelytOnionArchi.Data\bin\Debug\net5.0\PaelytOnionArchi.Data.pdb
+C:\Users\Tee\source\repos\PaelytOnionArchi.Data\PaelytOnionArchi.Data\obj\Debug\net5.0\PaelytOnionArchi.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tee\source\repos\PaelytOnionArchi.Data\PaelytOnionArchi.Data\obj\Debug\net5.0\PaelytOnionArchi.Data.AssemblyInfoInputs.cache
+C:\Users\Tee\source\repos\PaelytOnionArchi.Data\PaelytOnionArchi.Data\obj\Debug\net5.0\PaelytOnionArchi.Data.AssemblyInfo.cs
+C:\Users\Tee\source\repos\PaelytOnionArchi.Data\PaelytOnionArchi.Data\obj\Debug\net5.0\PaelytOnionArchi.Data.csproj.CoreCompileInputs.cache
+C:\Users\Tee\source\repos\PaelytOnionArchi.Data\PaelytOnionArchi.Data\obj\Debug\net5.0\PaelytOnionArchi.Data.dll
+C:\Users\Tee\source\repos\PaelytOnionArchi.Data\PaelytOnionArchi.Data\obj\Debug\net5.0\ref\PaelytOnionArchi.Data.dll
+C:\Users\Tee\source\repos\PaelytOnionArchi.Data\PaelytOnionArchi.Data\obj\Debug\net5.0\PaelytOnionArchi.Data.pdb
+C:\Users\Tee\source\repos\PaelytOnionArchi.Data\PaelytOnionArchi.Data\obj\Debug\net5.0\PaelytOnionArchi.Data.genruntimeconfig.cache
+C:\Users\Tee\source\repos\PaelytOnionArchi.Data\PaelytOnionArchi.Data\obj\Debug\net5.0\PaelytOnionArchi.Data.csproj.AssemblyReference.cache
